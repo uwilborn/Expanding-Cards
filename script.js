@@ -3,7 +3,7 @@
 const panels = document.querySelectorAll(".panel");
 
 panels.forEach((panel) => {
-  panel.addEentListerne("click", () => {
+  panel.addEventListener("click", () => {
     removeActiveClasses();
     panel.classList.add("active");
   });
